@@ -1,0 +1,138 @@
+*{
+    margin:8px;
+    padding:3px;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#EEF6FF;
+}
+
+.container{
+    width:80%;
+    margin:40px auto;
+    text-align:center;
+}
+
+.top-bar{
+    width:100%;
+    text-align:left;
+    margin-bottom:20px;
+}
+
+.back-btn{
+    background:#2563EB;
+    color:white;
+    padding:8px 15px;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+.back-btn:hover{
+    background:#1D4ED8;
+}
+
+h1{
+    color:#1E40AF;
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.welcome{
+    color:#555;
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.menu{
+    margin:20px 0;
+}
+
+.menu button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    margin:10px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.menu button:hover{
+    background:#1D4ED8;
+}
+
+form{
+    width:60%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.12);
+}
+
+input,
+textarea,
+select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #BFD8FF;
+    border-radius:5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline:none;
+    border-color:#2563EB;
+    box-shadow:0 0 5px rgba(37,99,235,0.3);
+}
+
+button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#1D4ED8;
+}
+
+.card{
+    width:70%;
+    margin:20px auto;
+    background:white;
+    border-left:6px solid #2563EB;
+    border-radius:10px;
+    padding:15px;
+    text-align:left;
+    box-shadow:0 4px 10px rgba(0,0,0,0.12);
+}
+
+.card h3{
+    color:#1E40AF;
+    margin-bottom:10px;
+}
+
+a{
+    text-decoration:none;
+    color:#2563EB;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#1D4ED8;
+}
+
+hr{
+    margin:30px 0;
+    border:1px solid #D6E8FF;
+}

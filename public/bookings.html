@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Bookings</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="top-bar">
+
+    <a href="index.html" class="back-btn">
+        ← Back to Home
+    </a>
+
+</div>
+
+    <div class="container">
+
+        <h1>Manage Bookings</h1>
+
+        <form id="bookingForm">
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Customer Name"
+                required>
+
+            <input
+                type="text"
+                id="phone"
+                placeholder="Phone Number"
+                required>
+
+            <select id="packageId" required>
+                <option value="">Select Package</option>
+            </select>
+
+            <input
+                type="date"
+                id="travelDate"
+                required>
+
+            <button type="submit">
+                Book Package
+            </button>
+
+        </form>
+
+        <hr>
+
+        <h2>Booking List</h2>
+
+        <div id="bookingList"></div>
+
+    </div>
+
+    <script src="js/booking.js"></script>
+
+</body>
+
+</html>
